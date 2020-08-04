@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/404.js"],"names":["Error"],"mappings":"2FAAA,wEAEe,SAASA,IACpB,OAAO","file":"component---src-pages-404-js-5416317b0123fddbfbcd.js","sourcesContent":["import React from \"react\"\r\n\r\nexport default function Error() {\r\n    return <div>Shit's broken</div>\r\n}\r\n"],"sourceRoot":""}
