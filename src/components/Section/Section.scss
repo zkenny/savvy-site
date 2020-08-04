@@ -1,0 +1,47 @@
+@import "../../pages/master.scss";
+
+.section {
+  width: auto;
+  .section__header {
+    padding: $size-xs;
+    width: 100%;
+    border-bottom: $size-xs solid $grey-blue;
+    font-weight: 500;
+  }
+
+  .section--centered {
+    text-align: center;
+  }
+
+  .section__header--centered {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section__header--sm {
+    font-size: 24px;
+  }
+
+  .section__header--md {
+    font-size: 30px;
+  }
+
+  .section__header--lg {
+    font-size: 36px;
+  }
+
+  .section__content--sm {
+    font-size: 14px;
+    padding: $size-s;
+  }
+
+  .section__content--md {
+    font-size: 18px;
+    padding: $size-m;
+  }
+
+  .section__content--lg {
+    font-size: 20px;
+    padding: $size-l;
+  }
+}

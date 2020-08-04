@@ -1,0 +1,27 @@
+@import "../../pages/master.scss";
+
+.navigation-bar {
+  background-color: $grey-blue;
+  .navigation-bar__logo {
+    width: 200px;
+    margin: $size-s;
+  }
+
+  .navigation-bar__nav {
+    align-self: flex-end;
+  }
+
+  .navigation-bar__tab-link {
+    margin: $size-l;
+  }
+
+  .navigation-bar__tab-link--active {
+    color: $navy-blue;
+    font-weight: bold;
+  }
+
+  a {
+    color: $grey;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,34 @@
+@import "master.scss";
+
+.investments {
+    .investments__page-content {
+        margin: $size-xl 15%;
+        color: $off-black;
+    }
+
+    .investments__page-section {
+        display: flex;
+        align-items: center;
+        margin-bottom: $size-l;
+    }
+
+    .investments__portfolio-construction {
+        width: 600px;
+        height: auto;
+    }
+
+    .investments__stock-exchange {
+        width: 50%;
+    }
+
+    .investments__sections {
+        padding: $size-m;
+        margin-left: $size-l;
+    }
+
+    .investments__portfolio-review {
+        display: flex;
+        justify-content: center;
+        margin: 0 25%;
+    }
+}

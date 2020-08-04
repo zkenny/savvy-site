@@ -1,0 +1,50 @@
+@import "master.scss";
+
+.home {
+  .home__banner {
+    position: relative;
+    margin-bottom: $size-m;
+  }
+
+  .home__banner-image {
+    width: 100%;
+  }
+
+  .home__banner-text {
+    position: absolute;
+    bottom: $size-m;
+    left: $size-m;
+    color: $off-white;
+    font-size: 32px;
+  }
+
+  .home__page-content {
+    margin: $size-xl 25%;
+    color: $off-black;
+  }
+
+  .home__intro-content {
+    margin-bottom: $size-s;
+  }
+
+  .home__what-we-do-subsection {
+    display: flex;
+    padding-right: $size-m;
+    align-items: center;
+  }
+
+  .home__what-we-do-subsection-icon {
+    width: 200px;
+  }
+
+  .home__what-we-do-subsection-content {
+    width: 650px;
+    margin-left: $size-m;
+  }
+
+  .home__what-we-do-subsection-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: $size-s;
+  }
+}

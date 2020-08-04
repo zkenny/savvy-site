@@ -1,0 +1,46 @@
+@import "master.scss";
+
+.about {
+    .about__page-content {
+        margin: $size-xl 15%;
+        color: $off-black;
+    }
+
+    .about__trust-text {
+        padding: $size-s;
+    }
+
+    .about__meet-our-team-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: $size-l;
+        font-size: 20px;
+    }
+
+    .about__meet-our-team-title {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .about__meet-our-team-section {
+        margin: $size-m;
+    }
+
+    .about__headshot {
+        width: 350px;
+    }
+
+    .about__faq {
+        margin: 0 10%;
+    }
+
+    .about__faq-question {
+        margin: $size-s;
+    }
+
+    .about__faq-link {
+        font-size: 12px;
+        margin: $size-m $size-s;
+    }
+}

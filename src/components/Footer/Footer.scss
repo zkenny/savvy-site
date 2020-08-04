@@ -1,0 +1,25 @@
+@import "../../pages/master.scss";
+
+.footer {
+    width: 100%;
+    background-color: $grey;
+    text-align: center;
+    padding: $size-xl;
+}
+
+.footer--absolute {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer__copyright {
+    margin-bottom: $size-m;
+}
+
+.footer__legal-notice-title {
+    font-size: 15px;
+}
+
+.footer__legal-notice-text {
+    font-size: 14px;
+}

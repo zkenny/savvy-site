@@ -1,0 +1,37 @@
+@import "../../pages/master.scss";
+
+.labelled-input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: $size-s;
+
+    .labelled-input__required {
+        color: red;
+        margin: $size-xs;
+    }
+
+    .labelled-input__input {
+        height: $size-l;
+        padding: $size-s;
+        background-color: $grey-white;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .labelled-input__input--large {
+        height: 150px;
+    }
+
+    input:focus {
+        outline: none;
+        box-shadow: 0 4px 8px 0 $grey-blue, 0 6px 20px 0 $grey-blue;
+    }
+
+    textarea:focus {
+        outline: none;
+        box-shadow: 0 4px 8px 0 $grey-blue, 0 6px 20px 0 $grey-blue;
+    }
+}

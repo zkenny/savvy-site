@@ -1,0 +1,24 @@
+@import "../../pages/master.scss";
+
+.email-form {
+    .email-form__title {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: $size-m;
+    }
+
+    .email-form__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email-form__button {
+        margin: $size-m;
+        background-color: $grey-blue;
+        padding: $size-s $size-xl;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}

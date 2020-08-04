@@ -1,0 +1,18 @@
+@import "master.scss";
+
+.consultation {
+    .consultation__page-content {
+        margin: $size-xl 30%;
+        color: $off-black;
+    }
+
+    .consultation__contact {
+        margin: $size-l 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .consultation__contact-icon {
+        width: 200px;
+    }
+}
